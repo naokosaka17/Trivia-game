@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	//correct answer counter
+	var correct = 0;
+	var incorrect = 0;
+
 
 	//Timer
 	function Countdown(options) {
@@ -65,6 +69,7 @@ $(document).ready(function(){
 		//------(need : timer,gif,correct comment, new question and 4 answers)
 		$(".a12").on("click",function(){
 			myCounter.start();
+			correct++;
 			$(".question1").addClass("hidden");
 			$(".answer1").addClass("hidden");
 			$(".gif1").removeClass("hidden");
@@ -79,6 +84,7 @@ $(document).ready(function(){
 		//------(need : timer,gif,wrong comment, new question and 4 answers)
 		$(".a11").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question1").addClass("hidden");
 			$(".answer1").removeClass("hidden");
 			$(".gif1").removeClass("hidden");
@@ -90,6 +96,7 @@ $(document).ready(function(){
 
 		$(".a13").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question1").addClass("hidden");
 			$(".answer1").removeClass("hidden");
 			$(".gif1").removeClass("hidden");
@@ -101,6 +108,7 @@ $(document).ready(function(){
 
 		$(".a14").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question1").addClass("hidden");
 			$(".answer1").removeClass("hidden");
 			$(".gif1").removeClass("hidden");
@@ -117,6 +125,7 @@ $(document).ready(function(){
 		//------(need : timer,gif,correct comment, new question and 4 answers)
 		$(".a24").on("click",function(){
 			myCounter.start();
+			correct++;
 			$(".question2").addClass("hidden");
 			$(".answer1").addClass("hidden");
 			$(".correct1").addClass("hidden");
@@ -133,6 +142,7 @@ $(document).ready(function(){
 		//wrong answer
 		$(".a21").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question2").addClass("hidden");
 			$(".answer1").addClass("hidden");
 			$(".correct1").addClass("hidden");
@@ -148,6 +158,7 @@ $(document).ready(function(){
 
 		$(".a22").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question2").addClass("hidden");
 			$(".answer1").addClass("hidden");
 			$(".correct1").addClass("hidden");
@@ -163,6 +174,7 @@ $(document).ready(function(){
 
 		$(".a23").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question2").addClass("hidden");
 			$(".answer1").addClass("hidden");
 			$(".correct1").addClass("hidden");
@@ -182,6 +194,7 @@ $(document).ready(function(){
 		//------(need : timer,gif,correct comment, new question and 4 answers)
 		$(".a32").on("click",function(){
 			myCounter.start();
+			correct++;
 			$(".question3").addClass("hidden");
 			$(".answer2").addClass("hidden");
 			$(".correct2").addClass("hidden");
@@ -198,6 +211,7 @@ $(document).ready(function(){
 		//wrong answer
 		$(".a31").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question3").addClass("hidden");
 			$(".answer2").addClass("hidden");
 			$(".correct2").addClass("hidden");
@@ -213,6 +227,7 @@ $(document).ready(function(){
 
 		$(".a32").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question3").addClass("hidden");
 			$(".answer2").addClass("hidden");
 			$(".correct2").addClass("hidden");
@@ -228,6 +243,7 @@ $(document).ready(function(){
 
 		$(".a33").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question3").addClass("hidden");
 			$(".answer2").addClass("hidden");
 			$(".correct2").addClass("hidden");
@@ -248,6 +264,7 @@ $(document).ready(function(){
 		//------(need : timer,gif,correct comment, new question and 4 answers)
 		$(".a43").on("click",function(){
 			myCounter.start();
+			correct++;
 			$(".question4").addClass("hidden");
 			$(".answer3").addClass("hidden");
 			$(".correct3").addClass("hidden");
@@ -264,6 +281,7 @@ $(document).ready(function(){
 		//wrong answer
 		$(".a41").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question4").addClass("hidden");
 			$(".answer3").addClass("hidden");
 			$(".correct3").addClass("hidden");
@@ -279,6 +297,7 @@ $(document).ready(function(){
 
 		$(".a42").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question4").addClass("hidden");
 			$(".answer3").addClass("hidden");
 			$(".correct3").addClass("hidden");
@@ -294,6 +313,7 @@ $(document).ready(function(){
 
 		$(".a43").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question4").addClass("hidden");
 			$(".answer3").addClass("hidden");
 			$(".correct3").addClass("hidden");
@@ -313,6 +333,7 @@ $(document).ready(function(){
 		//------(need : timer,gif,correct comment, new question and 4 answers)
 		$(".a51").on("click",function(){
 			myCounter.start();
+			correct++;
 			$(".question5").addClass("hidden");
 			$(".answer4").addClass("hidden");
 			$(".correct4").addClass("hidden");
@@ -329,6 +350,7 @@ $(document).ready(function(){
 		//wrong answer
 		$(".a52").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question5").addClass("hidden");
 			$(".answer4").addClass("hidden");
 			$(".correct4").addClass("hidden");
@@ -344,6 +366,7 @@ $(document).ready(function(){
 
 		$(".a53").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question5").addClass("hidden");
 			$(".answer4").addClass("hidden");
 			$(".correct4").addClass("hidden");
@@ -359,6 +382,7 @@ $(document).ready(function(){
 
 		$(".a54").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question5").addClass("hidden");
 			$(".answer4").addClass("hidden");
 			$(".correct4").addClass("hidden");
@@ -379,6 +403,7 @@ $(document).ready(function(){
 		//------(need : timer,gif,correct comment, new question and 4 answers)
 		$(".a61").on("click",function(){
 			myCounter.start();
+			correct++;
 			$(".question6").addClass("hidden");
 			$(".answer5").addClass("hidden");
 			$(".correct5").addClass("hidden");
@@ -395,6 +420,7 @@ $(document).ready(function(){
 		//wrong answer
 		$(".a62").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question6").addClass("hidden");
 			$(".answer5").addClass("hidden");
 			$(".correct5").addClass("hidden");
@@ -410,6 +436,7 @@ $(document).ready(function(){
 
 		$(".a63").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question6").addClass("hidden");
 			$(".answer5").addClass("hidden");
 			$(".correct5").addClass("hidden");
@@ -425,6 +452,7 @@ $(document).ready(function(){
 
 		$(".a64").on("click",function(){
 			myCounter.start();
+			incorrect++;
 			$(".question6").addClass("hidden");
 			$(".answer5").addClass("hidden");
 			$(".correct5").addClass("hidden");
@@ -432,23 +460,164 @@ $(document).ready(function(){
 			$(".gif5").addClass("hidden");
 			$(".answer6").remove("hidden");
 			$(".gif6").removeClass("hidden");
-			$(".gif6").append("<img id ='aurora' src='assets/images/aurora.gif '/>/");
+			$(".gif6").append("<img id ='aurora' src='assets/images/aurora.gif'/>/");
 			$(".wrong6").removeClass("hidden");
 			$(".question7").removeClass("hidden");
 			$(".answer7").removeClass("hidden");
 		});
 
 //======Q7======//
-	$(".answer7").on("click",function(){
-		myCounter.start();
-		$(".question7").addClass("hidden");
-		$(".question8").removeClass("hidden");
-		$(".answer8").removeClass("hidden");
+		//correct answer
+		//------(delete : last question, last 4 answers,last gif and comment)
+		//------(need : timer,gif,correct comment, new question and 4 answers)
+		$(".a71").on("click",function(){
+			myCounter.start();
+			correct++;
+			$(".question7").addClass("hidden");
+			$(".answer6").addClass("hidden");
+			$(".correct6").addClass("hidden");
+			$(".wrong6").addClass("hidden");
+			$(".gif6").addClass("hidden");
+			$(".answer7").remove("hidden");
+			$(".gif7").removeClass("hidden");
+			$(".gif7").append("<img id ='lady' src='assets/images/lady.gif'/>/");
+			$(".correct7").removeClass("hidden");
+			$(".question8").removeClass("hidden");
+			$(".answer8").removeClass("hidden");
+		});
 
-	});
+		//wrong answer
+		$(".a72").on("click",function(){
+			myCounter.start();
+			incorrect++;
+			$(".question7").addClass("hidden");
+			$(".answer6").addClass("hidden");
+			$(".correct6").addClass("hidden");
+			$(".wrong6").addClass("hidden");
+			$(".gif6").addClass("hidden");
+			$(".answer7").remove("hidden");
+			$(".gif7").removeClass("hidden");
+			$(".gif7").append("<img id ='lady' src='assets/images/lady.gif'/>/");
+			$(".wrong7").removeClass("hidden");
+			$(".question8").removeClass("hidden");
+			$(".answer8").removeClass("hidden");
+		});
 
+		$(".a73").on("click",function(){
+			myCounter.start();
+			incorrect++;
+			$(".question7").addClass("hidden");
+			$(".answer6").addClass("hidden");
+			$(".correct6").addClass("hidden");
+			$(".wrong6").addClass("hidden");
+			$(".gif6").addClass("hidden");
+			$(".answer7").remove("hidden");
+			$(".gif7").removeClass("hidden");
+			$(".gif7").append("<img id ='lady' src='assets/images/lady.gif'/>/");
+			$(".wrong7").removeClass("hidden");
+			$(".question8").removeClass("hidden");
+			$(".answer8").removeClass("hidden");
+		});
 
+		$(".a74").on("click",function(){
+			myCounter.start();
+			incorrect++;
+			$(".question7").addClass("hidden");
+			$(".answer6").addClass("hidden");
+			$(".correct6").addClass("hidden");
+			$(".wrong6").addClass("hidden");
+			$(".gif6").addClass("hidden");
+			$(".answer7").remove("hidden");
+			$(".gif7").removeClass("hidden");
+			$(".gif7").append("<img id ='lady' src='assets/images/lady.gif'/>/");
+			$(".wrong7").removeClass("hidden");
+			$(".question8").removeClass("hidden");
+			$(".answer8").removeClass("hidden");
+		});
 
+//======Q8======//
+		//correct answer
+		//------(delete : last question, last 4 answers,last gif and comment)
+		//------(need : timer,gif,correct comment, new question and 4 answers)
+		$(".a83").on("click",function(){
+			myCounter.start();
+			correct++;
+			$(".question8").addClass("hidden");
+			$(".answer7").addClass("hidden");
+			$(".correct7").addClass("hidden");
+			$(".wrong7").addClass("hidden");
+			$(".gif7").addClass("hidden");
+			$(".answer8").remove("hidden");
+			$(".gif8").removeClass("hidden");
+			$(".gif8").append("<img id ='ariel2' src='assets/images/ariel2.gif'/>/");
+			$(".correct8").removeClass("hidden");
+			$(".correctTotal").removeClass("hidden");
+			$(".incorrectTotal").removeClass("hidden");
+			$(".correctTotal").append(correct);
+			$(".incorrectTotal").append(incorrect);
+			console.log(correct);
+			console.log(incorrect);
+		});
+
+		$(".a81").on("click",function(){
+			myCounter.start();
+			incorrect++;
+			$(".question8").addClass("hidden");
+			$(".answer7").addClass("hidden");
+			$(".correct7").addClass("hidden");
+			$(".wrong7").addClass("hidden");
+			$(".gif7").addClass("hidden");
+			$(".answer8").remove("hidden");
+			$(".gif8").removeClass("hidden");
+			$(".gif8").append("<img id ='ariel2' src='assets/images/ariel2.gif'/>/");
+			$(".wrong8").removeClass("hidden");
+			$(".correctTotal").removeClass("hidden");
+			$(".incorrectTotal").removeClass("hidden");
+			$(".correctTotal").append(correct);
+			$(".incorrectTotal").append(incorrect);
+			console.log(correct);
+			console.log(incorrect);
+		});
+
+		$(".a82").on("click",function(){
+			myCounter.start();
+			incorrect++;
+			$(".question8").addClass("hidden");
+			$(".answer7").addClass("hidden");
+			$(".correct7").addClass("hidden");
+			$(".wrong7").addClass("hidden");
+			$(".gif7").addClass("hidden");
+			$(".answer8").remove("hidden");
+			$(".gif8").removeClass("hidden");
+			$(".gif8").append("<img id ='ariel2' src='assets/images/ariel2.gif'/>/");
+			$(".wrong8").removeClass("hidden");
+			$(".correctTotal").removeClass("hidden");
+			$(".incorrectTotal").removeClass("hidden");
+			$(".correctTotal").append(correct);
+			$(".incorrectTotal").append(incorrect);
+			console.log(correct);
+			console.log(incorrect);
+		});
+
+		$(".a84").on("click",function(){
+			myCounter.start();
+			incorrect++;
+			$(".question8").addClass("hidden");
+			$(".answer7").addClass("hidden");
+			$(".correct7").addClass("hidden");
+			$(".wrong7").addClass("hidden");
+			$(".gif7").addClass("hidden");
+			$(".answer8").remove("hidden");
+			$(".gif8").removeClass("hidden");
+			$(".gif8").append("<img id ='ariel2' src='assets/images/ariel2.gif'/>/");
+			$(".wrong8").removeClass("hidden");
+			$(".correctTotal").removeClass("hidden");
+			$(".incorrectTotal").removeClass("hidden");
+			$(".correctTotal").append(correct);
+			$(".incorrectTotal").append(incorrect);
+			console.log(correct);
+			console.log(incorrect);
+		});
 
 
 

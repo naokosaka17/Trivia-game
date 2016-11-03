@@ -113,3 +113,13 @@ img{
 	color: black;
 	text-align: center;
 }
+
+.correctTotal,.incorrectTotal{
+	font-family: navidad,georgia;
+	font-size: 50px;
+	color: black;
+	text-align: center;
+}
+.incorrectTotal{
+	margin-bottom: 30px;
+}
