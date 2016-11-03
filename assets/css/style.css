@@ -1,0 +1,115 @@
+@font-face {
+	font-family: disney;
+	src: url("../images/New\ Walt\ Disney.ttf");
+}
+@font-face {
+	font-family: navidad;
+	src: url("../images/Navidad.ttf");
+}
+
+body{
+	background: url("../images/background.jpg"); 
+	background-size: 100%;
+	width:100%;
+}
+
+.container{
+	width: 84%;
+	margin-top: 3%;
+	margin-bottom: 4%;
+	background-size: cover;
+	background-color: rgba(230, 230, 230, 0.5);  
+	
+}
+
+#disney{
+	color: black;
+	font-size: 7em;
+	float: left;
+	font-family: disney,georgia;
+	margin-left: 27%;
+	margin-top: 3.5%;
+}
+
+#trivia{
+	color: black;
+	font-family: navidad;
+	font-size: 10em;
+	padding-left: 50px;
+	margin-top: 0;
+}
+
+.start{
+	color: black;
+	font-family: navidad,georgia;
+	font-size: 4em;
+	margin-left: 40%;
+	margin-top: 17%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-bottom: 3em;
+	
+}
+
+button:hover{
+	background-color: #ffb3d9;
+}
+
+ #timer{
+	color: black;
+	font-family: navidad,georgia;
+	font-size: 2.3em;
+	text-align: center;
+}
+.stopwatch{
+	color: black;
+	font-family: navidad,georgia;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.questions,.correct{
+	width: 90%;
+	margin-right: 0;
+	font-family: navidad,georgia;
+	color: black;
+	font-size: 3.5em;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 5%;
+}
+
+.answer1,.answer2,.answer3,.answer4,.answer5,.answer6,.answer7,.answer8{
+	margin-left: 1.4em;
+	float: left;
+	color: black;
+	font-family: navidad,georgia;
+	font-size: 48px;
+	margin-bottom: 4%;
+	
+}
+.a{
+	width: 3.8em;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+img{ 
+	text-align: center;
+	width:300px;
+	height: 200px;
+	margin-left: 28em;
+	margin-top: 0px;
+	 }
+
+.correct1,.correct2,.correct3,.correct4,.correct5,.correct6,.correct7,.correct8,
+.wrong1,.wrong2,.wrong3,.wrong4,.wrong5,.wrong6,.wrong7,.wrong8{
+	font-family: navidad,georgia;
+	font-size: 38px;
+	color: black;
+	text-align: center;
+}
