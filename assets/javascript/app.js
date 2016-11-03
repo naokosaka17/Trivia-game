@@ -200,6 +200,7 @@ $(document).ready(function(){
 			$(".correct2").addClass("hidden");
 			$(".wrong2").addClass("hidden");
 			$(".gif2").addClass("hidden");
+
 			$(".answer3").remove("hidden");
 			$(".gif3").removeClass("hidden");
 			$(".gif3").append("<img id ='pascal' src='assets/images/pascal.gif'/>/");
@@ -225,7 +226,7 @@ $(document).ready(function(){
 			$(".answer4").removeClass("hidden");
 		});
 
-		$(".a32").on("click",function(){
+		$(".a33").on("click",function(){
 			myCounter.start();
 			incorrect++;
 			$(".question3").addClass("hidden");
@@ -241,7 +242,7 @@ $(document).ready(function(){
 			$(".answer4").removeClass("hidden");
 		});
 
-		$(".a33").on("click",function(){
+		$(".a34").on("click",function(){
 			myCounter.start();
 			incorrect++;
 			$(".question3").addClass("hidden");
@@ -311,7 +312,7 @@ $(document).ready(function(){
 			$(".answer5").removeClass("hidden");
 		});
 
-		$(".a43").on("click",function(){
+		$(".a44").on("click",function(){
 			myCounter.start();
 			incorrect++;
 			$(".question4").addClass("hidden");
